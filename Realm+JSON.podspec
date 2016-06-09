@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Realm+JSON'
-  s.version  = '0.2.12'
+  s.version  = '0.2.13'
   s.ios.deployment_target   = '7.0'
   s.osx.deployment_target = '10.9'
   s.license  = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Matthew Cheok' => 'cheok.jz@gmail.com' }
   s.requires_arc = true
   s.source   = {
-    :git => 'https://github.com/matthewcheok/Realm-JSON.git',
+    :git => 'git@github.com:ztory/Realm-JSON.git',
     :branch => 'master',
     :tag => s.version.to_s
   }
